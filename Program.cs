@@ -34,9 +34,7 @@ namespace TestEwsNtlm
             // Configure NTLM authentication explicitly
             service.PreAuthenticate = true;
             service.UseDefaultCredentials = false;
-
             service.TraceEnabled = true;
-            //service.HttpHeaders.Add("Authorization", "NTLM");
 
             try
             {
